@@ -1,0 +1,56 @@
+height: 100%;
+}
+body {
+  display: flek;
+  align-items: center;
+  justify-content: center;
+  font-family: Sans-Serif;
+  color: #444;
+  padding-top: 7vh;
+  padding-bottom: 20vh;
+}
+
+.wreapper {
+  width: 400px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+  display: height: 100%;
+}
+body {
+  display: flek;
+  align-items: center;
+  justify-content: center;
+  font-family: Sans-Serif;
+  color: #444;
+  padding-top: 7vh;
+  padding-bottom: 20vh;
+}
+
+.wreapper { ,
+  width: 400px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+};
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
