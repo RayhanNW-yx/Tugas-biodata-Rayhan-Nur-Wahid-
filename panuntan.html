@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <title>Tokoh Panutan Favorit</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+      
+      body{
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 10px;
+          box-sizing: border-box;
+      }
+
+      header, footer{
+       background-color: #00eaff8c;
+       color: black;      
+       padding: 10px 0;
+       text-align: center;
+      }
+      
+      nav ul{
+          list-style-type: none;
+          padding: 10;
+      }
+      
+     nav ul li{
+          display: inline;
+          margin-right: 10px;
+      }
+      
+      nav ul li a{
+          text-decoration: none;
+          color: #2600ff8c;
+      }
+      
+      .container{
+          display: grid;
+          grid-template-coulums: 1fr 3fr;
+          gap: 10px;
+          padding: 20px;
+      }
+      
+      @media (max-width: 600px) {
+          .container{
+              grid-template-coulums: 1fr;
+          }
+      }
+      
+      section{
+          background-color: #ceff008c;
+          padding: 20px;
+      }
+      
+      article{
+         background-color: #00ff2d8c;
+         padding: 20px;
+         border: 1px solid #ff00888c;
+      }
+      
+  </style>
+</head>
+<body>
+    <header>
+        <h1>PANUTAN</h1>
+        <nav>
+            <ul>
+                <a href="tugas2.html">BIODATA</a>
+                <a href="rayhan.html">FILM</a>
+                <a href="panuntan.html">TOKOH PANUNTAN</a>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h1>KEPA ARIZABALAGA</h1>
+            <div class="foto">
+                <img src="kepa.jpg" height="200px" widht="200" alt="poster">
+            </div>
+            <p>Kepa Arrizabalaga Revuelta adalah pemain Sepak bola profesional asal Spanyol yang Saat ini Bermain Sebagai Penjaga Gawang Untuk Klub La Liga Real Madrid, Dipinjam Dari Chelsea, Dan Timnas Spanyol.</p>
+            
+             <div id="ALASAN?">Mengapa Anda Menjadi Kan Dia Tokoh Fav?</div>
+      <p>Karena Menurut Saya Dia Pesepakbola Yang Tampan.</p>
+        </article>
+    </section>
+      <footer>&copy;Rayhan Nur Wahid 2024</footer>
+</body>
+</html>
